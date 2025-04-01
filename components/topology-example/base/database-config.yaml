@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: topology-example-database-config
+data:
+  VECTORDB_HOST: "topology-example-database"
+  VECTORDB_PORT: ""

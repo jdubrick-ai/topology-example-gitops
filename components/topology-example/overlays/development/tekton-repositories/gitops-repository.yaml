@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: topology-example-gitops-repository
+spec:
+  url: https://github.com/jdubrick-ai/topology-example-gitops
